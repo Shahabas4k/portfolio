@@ -1058,3 +1058,69 @@ section{
 }
 
 }
+
+/* Mobile Menu */
+
+.nav-links.active{
+
+display:flex;
+
+position:absolute;
+
+top:80px;
+
+left:0;
+
+width:100%;
+
+background:#050816;
+
+flex-direction:column;
+
+padding:30px;
+
+gap:20px;
+
+text-align:center;
+
+}
+
+.navbar.sticky{
+
+background:#050816;
+
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+.nav-links a.active{
+
+color:#00ff88;
+
+}
+
+.show{
+
+animation:fadeUp .8s ease forwards;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
